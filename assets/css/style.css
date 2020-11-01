@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Heading -----------------------------------*/ 
+.bg-color-title {
+    margin-left: 320px;
+    margin-right: 320px;
+}
+
+.heading {
+    padding: 0;
+}
+
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 68px;
+    margin-top: 20px;
+    color: #111;
+}
+
+.heading a{
+width: 50%;
+text-decoration: none;
+}
+
+.heading i{
+    font-size: 34px;
+    color: #fd3;
+    position: relative;
+    bottom: 13px;
+}
