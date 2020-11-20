@@ -1,31 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
-/* Heading -----------------------------------*/ 
-.bg-color-title {
-    margin-left: 320px;
-    margin-right: 320px;
-}
-
-.heading {
+body {
+    margin: 0;
     padding: 0;
 }
+/*--------------------------------------------------------------heading*/ 
+.cross-scene {
+    height: 100px;
+    width: 200px;
 
-.title {
+}
+
+h1{
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    font-size: 68px;
-    margin-top: 20px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+/*------------------------------------------------------------------ Nav Bar*/
+nav ul {
+    list-style: none;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #a11; 
+}
+
+/* -------------------------------------------------------------Home */
+.welcome-info-title {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #a11;
+    }
+
+.welcome-info-p1 {
+    text-align: left;
+}
+
+.welcome-info-p2 {
+        text-align: left;
+}
+
+/*-------------------------------------------------------------Old Testament */
+.old-testament-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    }
+
+/* ------------------------------------------------------------- New Testament*/
+.new-testament-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+/*----------------------------------------------------------------Sign Up*/
+.sign-up-section {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+
+/* -------------------------------------------------------------effects */
+
+nav a:hover {
+    text-decoration: none;
     color: #111;
 }
-
-.heading a{
-width: 50%;
-text-decoration: none;
-}
-
-.heading i{
-    font-size: 34px;
-    color: #fd3;
-    position: relative;
-    bottom: 13px;
-}
+/*--------------------------------------------------------------colour*/
