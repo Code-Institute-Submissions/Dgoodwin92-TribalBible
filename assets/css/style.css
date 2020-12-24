@@ -223,10 +223,10 @@ footer{
     margin: 0;
 }
 
-.footer-h5 {
+.footer-h6 {
+    padding-top: 5px;
     margin-left: 10px;
-    padding-left: 10px;
-    font-weight: 300;
+    width: 25%;
     color: #fff;
 }
 
@@ -238,6 +238,18 @@ footer{
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.footer-nav {
+    font-size: 10px;
+    padding: 3px;
+}
+
+.social-links i{
+    font-size: 30px;
+}
+
+.social-links i:hover {
+    color: #fff;
+}
 /* -------------------------------------------------------------effects */
 .btn:hover{
     color: #fff;
