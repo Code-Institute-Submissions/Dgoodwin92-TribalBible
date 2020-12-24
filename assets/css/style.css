@@ -14,7 +14,9 @@ body {
     position: relative;
     background-color: #111;
     width: 100%;
-    height: 600px;
+    height: 675px;
+    margin: 0;
+    padding: 0;
 }
 
 .tribal-heading {
@@ -48,9 +50,14 @@ h1 {
     width: 100%;
 }
 /*------------------------------------------------------------------ Nav Bar*/
+.navbar {
+    background-color: #111;
+}
+
 .nav-title {
     font-family: 'Combo', sans-serif;
     font-size: 30px;
+    color: #fff;
 }
 
 .title-nav-logo {
@@ -60,7 +67,13 @@ h1 {
     height: 30px;
 }
 
+.nav-link{
+    color: #fff;
+}
 
+a, a:hover{
+    color: #a11;
+}
 
 /* -------------------------------------------------------------Home */
 .welcome-info {
@@ -79,24 +92,183 @@ h1 {
 }
 
 /*-------------------------------------------------------------Old Testament */
+.old-testament {
+    height: 675px;
+    background-color: #a11;
+}
 .old-testament-heading {
+    margin: 20px;
+    padding: 10px;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    color: #fff;
     }
 
-/* ------------------------------------------------------------- New Testament*/
-.new-testament-heading {
-    font-family: 'Josefin Sans', sans-serif;
+.card {
+    background-color: #a11;
+    border-color: #a11;
+    padding: 10px;
+}
+
+.card-title {
+    font-family: 'Combo', sans-serif;
+    font-size: 30px;
+    color: #fff;
     text-align: center;
+}
+
+.card-text {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.btn-ot {
+    background-color: #111;
+    color: #fff;
+}
+
+/* ------------------------------------------------------------- New Testament*/
+
+.new-testament {
+    background-color: #111;
+    height: 675px;
+}
+
+.new-testament-heading {
+    padding: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+#left-info {
+    padding-top:30px;
+    width: 33%;
+    float: left;
+}
+
+#right-info {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-info {
+    width: 33%;
+    margin: 0 auto;
+}
+
+.left-info-heading {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.right-info-heading{
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 10px;  
+}
+
+.left-info-heading h3{
+    font-family: 'Combo', sans-serif;
+    color: #fff;
+}
+
+.right-info-heading h3{
+    font-family: 'Combo', sans-serif;
+    color: #fff;
+    text-align: right;
+}
+.left-info-heading p {
+font-family: 'Josefin Sans', sans-serif;
+color: #fff;
+}
+
+.right-info-heading p {
+font-family: 'Josefin Sans', sans-serif;
+color: #fff;
+text-align: right;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-jesus-img {
+background: no-repeat center center;
+height: 100%;
+border-radius: 50%;
+}
+
+#jesus-circle-title {
+    font-family: 'Combo', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.jesus-img-title {
+    font-size: 80px;
+}
+
+.btn-right {
+    float: right;
+}
+
+.btn-nt {
+    background-color: #a11;
+    color: #fff;
 }
 
 /*----------------------------------------------------------------Sign Up*/
+.sign-up {
+    height: 675px;
+    background-color: #a11;
+}
+
 .sign-up-section {
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    padding: 30px;
+    color: #fff;
+}
+
+#signup-form {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    width: 100%;
+    padding: 30px;
+}
+
+.button-submit {
+    background-color: #111;
+    color: #fff;
 }
 
 
+
+
 /* -------------------------------------------------------------effects */
+.btn:hover{
+    color: #fff;
+}
 
 /*--------------------------------------------------------------colour*/
