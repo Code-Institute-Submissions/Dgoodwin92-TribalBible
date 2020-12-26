@@ -1,44 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tribal Bible</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
         <script src="https://kit.fontawesome.com/2dd9e4e049.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="assets/css/style.css">
-    </head> 
-    <body>
-    <div class="container">
-    <header>
-    <!--Title of the website-->
-    <div class="row bg-color-title">
-        <div class="col-12 text-center heading">
-            <a href="#"><h1 class="display-1 title">Tribal <i class="fas fa-bible" aria-hidden="true"></i> Bible</h1></a>
-         </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
+</head> 
+<body>
+    <article class="container-fluid">
+        <section id="tribalbible.html" class="heading welcome">
+            <nav class="navbar fixed-top navbar-expand-lg">
+                <a class="navbar-brand nav-title mb-0 h1" href="#tribalbible.html"><i class="fab fa-gripfire title-nav-logo"></i> Tribal Bible</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-bible" aria-controls="navbar-bible" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i class="fas fa-bible"></i>
+                        </span>
+                    </button>
+            <div class="collapse navbar-collapse" id="navbar-bible">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#tribalbible.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#old-testament-nav">Old Testament</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#new-testament-nav">New Testament</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sign-up-nav">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+        <div class="row">
+        <div class="col tribal-heading">
+            <h1>Tribal Bible</h1>
+        <div class="col fire-heading">
+            <i class="fab fa-gripfire heading-icon"></i>
+        </div>
+        <div class="row welcome-info">
+        <div class=" col-12 welcome-info-title">
+            <h4>Welcome to Tribal Bible</h4>
+        </div>
+        </div>
+        <div class="container-fluid">
+        <div class="row">
+        <div class="col-lg-6 col-sm-12">
+            <blockquote class="blockquote">
+                <p>A website built for children in mind. Here are Tribal Bible we want to help children learn more about the bible!</p>
+            </blockquote>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <blockquote class="blockquote">
+                <p>On this site you will have the chance to learn about people from the Old Testament and Jesus who is in the New Testament.</p>
+            </blockquote>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+</section>
+<section class="old-testament" id="old-testament-nav">
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col old-testament-heading">
+        <h2>Old Testament</h2>
     </div>
-    <nav class="nav flex-column">
-  <a class="nav-link active" href="#">Home</a>
-  <a class="nav-link" href="#">Old Testament</a>
-  <a class="nav-link" href="#">New Testament</a>
-  <a class="nav-link" href="#">Sign Up</a>
-</nav>
-    </header>
-    <section>
-    <!--Home-->
-    </section>
-    <section>
-    <!--Old Testament-->
-    </section>
-    <section>
-    <!--New Testament-->
-    </section>
-    <section>
-    <!--sign up-->
-    </section>
     </div>
-    <footer>
-    <!--Social Media & Copyright-->
-    </footer>
-    </body>
+    <div class="row">
+    <div class="col-md-4 col-sm-12 ">
+    <div class="card">
+        <img src="assets/images/vector/adam-eve.jpg" class="card-img-top" alt="Adam and Eve">
+    <div class="card-body text-center">
+        <h5 class="card-title">Adam & Eve</h5>
+            <p class="card-text">Adam and Eve where the first people created by God.</p>
+                <button type="button" class="btn btn-ot" data-toggle="modal" data-target="#adam-eve-modal">Teach Me More</button>
+    <div class="modal fade" id="adam-eve-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Adam & Eve</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+    </div>
+    <div class="modal-body">
+        ...
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-ot-modal" data-dismiss="modal">I'm Adam and Eve'd out!</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+    <div class="card">
+        <img src="assets/images/vector/noah-ark.jpg" class="card-img-top-na" alt="Noah's Ark">
+    <div class="card-body text-center">
+            <h5 class="card-title">Noah's Ark</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <button type="button" class="btn btn-ot" data-toggle="modal" data-target="#noah-ark-modal">Teach Me More</button>
+    <div class="modal fade" id="noah-ark-modal" tabindex="-1" aria-labelledby="noah-ark-modal-label" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="noah-ark-modal-label">Noah's Ark</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+    <div class="modal-body">
+        ...
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-ot-modal" data-dismiss="modal">Flood Over!</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+    <div class="card">
+        <img src="assets/images/vector/david-goliath.jpg" class="card-img-top" alt="David and Goliath">
+    <div class="card-body text-center">
+        <h5 class="card-title">David And Goliath</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <button type="button" class="btn btn-ot" data-toggle="modal" data-target="#david-goliath-modal">Teach Me More</button>
+    <div class="modal fade" id="david-goliath-modal" tabindex="-1" aria-labelledby="david-goliath-modal-label" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="david-goliath-modal-label">David and Goliath</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        ...
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-ot-modal" data-dismiss="modal">Goliath Has Fallen!</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</section>
+<section class="new-testament" id="new-testament-nav">
+    <div class="container-fluid">
+    <div class="new-testament-heading">
+        <h2>New Testament</h2>
+    </div>
+    <div class="row">
+    <div class="col-lg-6 col-md-6 text-center">
+        <h5 class="nt-titles nt-title-left">Miracles</h5>
+            <p class="nt-information-left">Jesus performed many miracles. He performed healings, raised dead people to life and turned water into wine. 
+                here are so many more Miracles he perfomed.</p>
+    </div>
+    <div class="col-lg-6 col-md-6 text-center">
+        <h5 class="nt-titles nt-title-right">Parables</h5>
+            <p class="nt-information-right">Jesus told many stories to help people understand the message he wanted to give, these are called parables.
+                Jesus told a lot of parables.</p>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col">
+        <img src="assets/images/vector/jesus.jpg" alt="Jesus" class="jesus-img">
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-lg-6 col-md-6 text-center">
+        <h5 class="nt-titles nt-title-left">The Twelve Disciples</h5>
+            <p class="nt-information-left">Jesus had twelve disciples. These disciples followed Jesus everywhere and learnt from him, they all dropped their jobs to follow him. </p>
+    </div>
+    <div class="col-lg-6 col-md-6 text-center">
+        <h5 class="nt-titles nt-title-right">Crucifixion</h5>
+            <p class="nt-information-right">Jesus was crucified by the Romans, this means that he was placed on a wooden cross and nailed on by his hands and feet and left to hang</p>
+    </div>
+    </div>
+    </div>
+</section>
+<section class="sign-up" id="sign-up-nav">
+    <div class="container-fluid">
+    <div class="sign-up-section">
+        <h2>Sign Up</h2>
+    </div>
+    <div class="row">
+    <div class="col signup-info">
+        <p class="signup-text">To find out more information and to write a prayer request, please fill out this simple form.</p>
+    </div>
+    </div>
+    <div class="row justify-content-center align-items-center">
+    <div class="col-10 col-md-8 col-lg-10">
+        <form id="signup-form" action="response.html" method="get" target="_blank">
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First & Last Name" required>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com" required>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Prayer Request</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">This space is for any prayer requests you may have....</textarea>
+    </div>
+        <button value="Submit" type="submit" class="btn button-submit">Submit</button>
+        </form>
+    </div>
+    </div>
+    </div>
+</section>
+<footer class="container-fluid">
+    <div class="row">
+    <div class="col-4 footer-h6">
+        <h6 class="uppercase general-sub">Website Links</h6>
+            <p class="inline-block">
+                <a class="nav-link footer-nav" href="#tribalbible.html">Home</a>
+                <a class="nav-link footer-nav" href="#old-testament-nav">Old Testament</a>
+                <a class="nav-link footer-nav" href="#new-testament-nav">New Testament</a>
+                <a class="nav-link footer-nav" href="#sign-up-nav">Sign Up</a>
+            </p>
+    </div>
+    <div class="col-4 footer-h6">
+        <h6 class="uppercase general-sub">Social</h6>
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.youtube.com/">
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                    </a>
+                </li>
+            </ul>
+    </div>
+    </div>
+</footer>
+</article>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
 </html>
