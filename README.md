@@ -33,6 +33,9 @@ As a user of the website...
 ## **Features**
 Within this project there have been some key features that have been incorporated.
 
+### Features Left to Implement 
+* Infomation in the modals for the Old Testament
+* more detailed infomation on the New Testament subjects
 ### **Navbar**
 The Navbar has been created so that it will collapse as the screen size reduces. Once the Navbar has collapsed a small white bible appears on the top right, this bible replaces a hamburger dropdown navbar. Once clicked it will reveal the navigation links to the different sections.
 
