@@ -1,5 +1,5 @@
 # Tribal Bible 
-
+![Tribal Bible](/assets/images/vector/website-responsive.JPG)
 Tribal Bible is a child friendly website which will provide the child and parent with biblical infomation on people of the bible. Currently on the internet there are not many well designed child friendly theological websites, most have lots of adds with dull colours, and a lot of text. I have created Tribal Bible to be an up to date, good looking website which children would love to come onto and learn.
 
 ## UX
@@ -12,6 +12,11 @@ to come and learn about Old Testament, New Testament and the people of the Bible
 
 This website will require user stories from two different sides - The website creator and the potential children to use it.
 
+### Wireframe Ideas
+![Wireframe](assets/images/wireframe/wireframe-tribal.JPG)
+![Wireframe](assets/images/wireframe/wireframe-oldtestament.JPG)
+![Wireframe](assets/images/wireframe/wireframe-nt.JPG)
+![Wireframe](assets/images/wireframe/wireframe-sign.JPG)
 ### **Website Creator**
 As the website creator...
 * I want children to see this as a helpful and fun place to visit online
@@ -58,9 +63,72 @@ Technology used that is connected to [Bootstrap](https://getbootstrap.com/) for 
 ## **Testing**
 This project code has been run through [W3 HTML validator](https://validator.w3.org/nu/) and [W3 CSS validator](http://www.css-validator.org/) and came back validated.
 
-Alongside using the code checkers I have tested the website preview on different devices and browsers listed below
+Alongside using the code checkers I have tested the website preview on different devices listed below
 ### Mobile & Tablet
 * iPhone 6/7/8
 * Kindle Fire HDX
 
-### Browsers
+### Laptop and Desktop
+* Acer Aspire Laptop
+
+## **Testing the Features**
+
+### Old Testament buttons
+* Go to Old Testament section
+* Click on button 
+* Modal opens. Click either cross or button to close modal
+
+### Sign Up
+* Go to the Sign Up section
+* Try to submit the empty form and verify that an error message about the required fields appears
+* Try to submit the form with an invalid email address and verify that a relevant error message appears
+* Try to submit the form with all inputs valid and verify that a success message appears.
+
+### Social Media links
+* Go to footer
+* Click on each of the social media icons to confirm another tab opens with a link to the social media platform the icon represents
+
+## **Bugs and Problems**
+This project code has been run through [W3 HTML validator](https://validator.w3.org/nu/) and [W3 CSS validator](http://www.css-validator.org/) and came back validated, although the css came back with no issues my HTML came back with two warnings. The first one is around my h1 heading and the other is about a section heading title.
+
+### Problems 
+* I am unable to know how to make my website sizes look correct of anything larger than an average desktop screen. Old Testament section has been the hardest to get to fit to different screen sizes 
+* I struggled with getting the Navbar to stay the length of the container, it would run past the the container and leave a white panel on the right. I was able to fix this with overflow-x:hidden
+* I have also been git commit -m through out the process, but forgot to git push after each git commit. For some reason I thought that you did the push once you were finished with the entire project
+
+## **Deployment**
+
+### GitHub Pages
+To deploy a website on GitHub Pages, follow these steps:
+
+1. Go to the repository page
+1. Click on settings icon in the top of the page
+1. Find "GitHub Pages" section
+1. Click on the "Source" dropdown menu
+1. Select "master branch" option
+1. A green success message should appear in the "GitHub Pages" section with the link to the live preview of the project.
+1. For more information please visit [here](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+### Local Deployment
+To create a local copy of a repository, follow these steps:
+
+1. Go to the repository page
+1. Click on the "Clone or download" button in the top of the page
+1. Click the check list icon on the right of the newly opened window to clone the repository using HTTPS
+1. Open Terminal
+1. Change the current working directory to the location where you want the cloned directory to be made
+1. Type "git clone" and paste the URL you copied in step 3 and run the command
+1. For more information please visit [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+
+## **Credits**
+* The text content of this website is all original, written by myself
+
+### Media
+* The images have been taken from [Vecteezy](https://www.vecteezy.com/)
+* The icons have been taken from [Font Awesome](https://fontawesome.com/)
+* The fonts have been taken from [Google Fonts](https://fonts.google.com/)
+
+### Coding Sources
+* [CSS Tricks](https://css-tricks.com/) used to help with problems
+* [Stack Overflow](https://stackoverflow.com/) used to troubleshoot issues
+* [Bootstrap](https://getbootstrap.com/) used to create some of the structure and interactive parts of the website
